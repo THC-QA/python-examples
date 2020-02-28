@@ -191,16 +191,127 @@ def main():
     while toGoCondition:
 
         if playerXPosition == hiddenTXPosition and playerYPosition == hiddenTYPosition:
-            print("You have discovered the legendary EI sword to aid you in your quest")
+            print("You have discovered the legendary EI sword to aid you in your quest.")
             sleep(0.1)
+            print("Its previous owner doesn't seem to mind...")
+            sleep(0.1)
+            print("""
+                     ______""")
+            sleep(0.1)
+            print(
+"""                  .-"      "-.""")
+            sleep(0.1)
+            print(
+"""                 /            \ """)
+            sleep(0.1)
+            print(
+"""                |              | """)
+            sleep(0.1)
+            print(
+"""                |,  .-.  .-.  ,|""")
+            sleep(0.1)
+            print(
+"""                | )(__/  \__)( |""")
+            sleep(0.1)
+            print(
+"""                |/     /\     \|""")
+            sleep(0.1)
+            print(
+"""      (@_       (_     ^^     _)""")
+            sleep(0.1)
+            print(
+""" _     ) \_______\__|IIIIII|__/__________________________""")
+            sleep(0.1)
+            print(
+"""(_)@8@8{}<________|-\IIIIII/-|___________________________>""")
+            sleep(0.1)
+            print(
+"""       )_/        \          /""")
+            sleep(0.1)
+            print(
+"""      (@           `--------` """)
+            sleep(1)
         
         if trapX == playerXPosition and trapY == playerYPosition:
-            print("You fell into a trap, you're dead now")
+            print("""
+▓██   ██▓ ▒█████   █    ██    ▓█████▄  ██▓▓█████ ▓█████▄ """)
+            sleep(0.1)
+            print(
+""" ▒██  ██▒▒██▒  ██▒ ██  ▓██▒   ▒██▀ ██▌▓██▒▓█   ▀ ▒██▀ ██▌""")
+            sleep(0.1)
+            print(
+"""  ▒██ ██░▒██░  ██▒▓██  ▒██░   ░██   █▌▒██▒▒███   ░██   █▌""")
+            sleep(0.1)
+            print(
+"""  ░ ▐██▓░▒██   ██░▓▓█  ░██░   ░▓█▄   ▌░██░▒▓█  ▄ ░▓█▄   ▌""")
+            sleep(0.1)
+            print(
+"""  ░ ██▒▓░░ ████▓▒░▒▒█████▓    ░▒████▓ ░██░░▒████▒░▒████▓ """)
+            sleep(0.1)
+            print(
+"""   ██▒▒▒ ░ ▒░▒░▒░ ░▒▓▒ ▒ ▒     ▒▒▓  ▒ ░▓  ░░ ▒░ ░ ▒▒▓  ▒ """)
+            sleep(0.1)
+            print(
+""" ▓██ ░▒░   ░ ▒ ▒░ ░░▒░ ░ ░     ░ ▒  ▒  ▒ ░ ░ ░  ░ ░ ▒  ▒ """)
+            sleep(0.1)
+            print(
+""" ▒ ▒ ░░  ░ ░ ░ ▒   ░░░ ░ ░     ░ ░  ░  ▒ ░   ░    ░ ░  ░ """)
+            sleep(0.1)
+            print(
+""" ░ ░         ░ ░     ░           ░     ░     ░  ░   ░    """)
+            sleep(0.1)
+            print(
+""" ░ ░                           ░                  ░     """)
             sleep(2)
             toGoCondition = False
 
         if playerXPosition == treasureXPosition and playerYPosition == treasureYPosition:
-            print("You found the treasure, now go save the world. THE END")
+            print("You found the treasure, now go save the world...")
+            sleep(0.1)
+            print("""
+                                  _""")
+            sleep(0.1)
+            print("""
+                        .-.      / \        _""")
+            sleep(0.1)
+            print(
+"""            ^^         /   \    /^./\__   _/ \ """)
+            sleep(0.1)
+            print(
+"""          _        .--'\/\_ \__/.      \ /    \  ^^  ___""")
+            sleep(0.1)
+            print(
+"""         / \_    _/ ^      \/  __  :'   /\/\  /\  __/   \ """)
+            sleep(0.1)
+            print(
+"""        /    \  /    .'   _/  /  \   ^ /    \/  \/ .`'\_/\ """)
+            sleep(0.1)
+            print(
+"""       /\/\  /\/ :' __  ^/  ^/    `--./.'  ^  `-.\ _    _:\ _""")
+            sleep(0.1)
+            print(
+"""      /    \/  \  _/  \-' __/.' ^ _   \_   .'\   _/ \ .  __/ \ """)
+            sleep(0.1)
+            print(
+"""    /\  .-   `. \/     \ / -.   _/ \ -. `_/   \ /    `._/  ^  \ """)
+            sleep(0.1)
+            print(
+"""   /  `-.__ ^   / .-'.--'    . /    `--./ .-'  `-.  `-. `.  -  `.""")
+            sleep(0.1)
+            print(
+""" @/        `.  / /      `-.   /  .-'   / .   .'   \    \  \  .-  \%""")
+            sleep(0.1)
+            print(
+""" @(88%@)@%% @)&@&(88&@.-_=_-=_-=_-=_-=_.8@% &@&&8(8%@%8)(8@%8 8%@)%""")
+            sleep(0.1)
+            print(
+""" @88:::&(&8&&8::JGS:&`.~-_~~-~~_~-~_~-~~=.'@(&%::::%@8&8)::&#@8::::""")
+            sleep(0.1)
+            print(
+""" `::::::8%@@%:::::@%&8:`.=~~-.~~-.~~=..~'8::::::::&@8:::::&8::::::'""")
+            sleep(0.1)
+            print(
+"""  `::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::'""")
             sleep(2)
             toGoCondition = False
         
