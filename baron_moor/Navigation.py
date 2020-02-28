@@ -48,4 +48,4 @@ class Navigation:
         self.yDiff = int(math.pow((self.pY - self.tY), 2))
         self.summed = int(self.xDiff + self.yDiff)
         
-        return math.sqrt(self.summed)
+        return round(math.sqrt(self.summed),2)

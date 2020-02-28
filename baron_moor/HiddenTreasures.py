@@ -18,7 +18,3 @@ class HiddenTreasures:
     def calculateYPosition(self):
         y = random.randint(0,self.gb.getColumns())
         return y
-
-
-
-

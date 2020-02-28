@@ -19,8 +19,3 @@ class Movement(abc.ABC):
     @abc.abstractmethod
     def east(self,e):
         pass
-
-    
-
-
-

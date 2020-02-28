@@ -25,4 +25,3 @@ class Dial:
         if w > 0:
             w-=1
         return w
-
